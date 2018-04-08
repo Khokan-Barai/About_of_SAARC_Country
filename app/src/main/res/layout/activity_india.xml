@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ind_3"
+    tools:context="com.khokan.user.now.India">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/ind_2"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:text="Officially name of this country is Republic of India.\nIndia is a country in South Asia.\nAlong with the English language, Hindi written in the Devanagari script is the official language of the Government of India.\nHindu is India's largest religion, followed by 80 percent of the population.Islam is followed by 14 percent.\nMore IITs were soon opened in Bombay, Madras, Kanpur and Delhi as well in the late 1950s and early 1960s. Beginning in the 1960s, close ties with the Soviet Union enabled the Indian Space Research Organisation to rapidly develop the Indian space program and advance nuclear power in India even after the first nuclear test explosion by India on 18 May 1974 at Pokhran.While India has increased its output of scientific papers fourfold between 2000 and 2015 overtaking Russia and France in absolute number of papers per year, that rate has been exceeded by China and Brazil; Indian papers generate fewer cites than average, and relative to its population it has few scientists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:text="Known for more details of India, click''Click Me''"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <Button
+                android:id="@+id/goweb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#575757"
+                android:text="Click Me!"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:onClick="open"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pak_3"
+    tools:context="com.khokan.user.now.Pakistan">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pakistan"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/pak_2"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:text="Officially name of this country is Islamic Republic of Pakistan.\nIndia is a country in South Asia.\nUrdu  is a Persianised and standardised register of the Hindustani language.It is the official national language and lingua franca of Pakistan.\nIslam is Pakistan's largest religion, followed by 96.4 percent of the population.\nDevelopments in science and technology have played an important role in Pakistan's infrastructure and helped the country connect to the rest of the world.Every year, scientists from around the world are invited by the Pakistan Academy of Sciences and the Pakistan Government to participate in the International Nathiagali Summer College on Physics.Pakistan hosted an international seminar on Physics in Developing Countries for the International Year of Physics 2005.In 2010 Pakistan was ranked 43rd in the world in terms of published scientific papers."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Known for more details of Pakistan, click''Click Me''"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/goweb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#575757"
+                android:text="Click Me!"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:onClick="open"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

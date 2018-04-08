@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/afg_3"
+    tools:context="com.khokan.user.now.Afghanistan">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afghanistan"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/afg_2"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:text="Officially name of this country is Islamic Republic of Afghanistan.\nAfghanistan is a country in South Asia.\nPashto and Dari are the official languages of Afghanistan.\nMuslim is India's largest religion, followed by 99 percent of the population.
+Michael E. O'Hanlon of the Brookings Institution estimated that if Afghanistan generates about $10 bn per year from its mineral deposits, its gross national product would double and provide long-term funding for Afghan security forces and other critical needs. The United States Geological Survey (USGS) estimated in 2006 that northern Afghanistan has an average 2.9 billion (bn) barrels (bbl) of crude oil, 15.7 trillion cubic feet (440 bn m3) of natural gas, and 562 million bbl of natural gas liquids.[164] In 2011, Afghanistan signed an oil exploration contract with China National Petroleum Corporation (CNPC) for the development of three oil fields along the Amu Darya river in the north."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:text="Known for more details of Afghanistan,\n click''Click Me''"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <Button
+                android:id="@+id/goweb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="#575757"
+                android:text="Click Me!"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:onClick="open"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

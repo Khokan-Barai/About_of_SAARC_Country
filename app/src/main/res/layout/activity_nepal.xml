@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/nep_3"
+    tools:context="com.khokan.user.now.Nepal">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nepal"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/nep_2"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:text="Officially name of this country is Federal Democratic Republic of Nepal.\nNepal is a country in South Asia.\nNepal speaks Nepali as a first language.Although the Nepal bhasha language dominated the Kathmandu valley,Khas Nepali is currently the most dominant.Nepali is used in government and as the everyday language of a growing portion of the local population.\nHindu is Nepal's largest religion, followed by 81.3 percent of the population.the Buddhist population in Nepal is 9% of the country population.Islam is followed by 4.4 percent.\nNepal was a late entrant into the modern world of science and technology. Nepal’s first institution of higher education, Tri-Chandra College, was established by Chandra Shumsher in 1918. The college introduced science at the Intermediate level a year later, marking the genesis of formal science education in the country.An underdeveloped country, Nepal is plagued with problems such as poverty, illiteracy, unemployment, and the like. Consequently, science and technology have invariably lagged behind in the priority list of the government."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:text="Known for more details of Nepal, click''Click Me''"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <Button
+                android:id="@+id/goweb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#575757"
+                android:text="Click Me!"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:onClick="open"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

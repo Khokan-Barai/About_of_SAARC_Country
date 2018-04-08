@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mal_3"
+    tools:context="com.khokan.user.now.Maldives">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maldive"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/mal_2"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:text="Officially name of this country is Republic of Maldives.\nMaldive is a country in South Asia.\nThe Maldives is a founding member of the South Asian Association for Regional Cooperation (SAARC).
+Maldives official language is Maldivian (Dhivehi).\nMuslim  is Maldive's largest religion, followed by 98.4 percent of the population.\nFor many centuries the Maldivian economy was entirely dependent on fishing and other marine products. Fishing remains the main occupation of the people and the government gives priority to the fisheries sector.The mechanisation of the traditional fishing boat called dhoni in 1974 was a major milestone in the development of the fisheries industry. A fish canning plant was installed on Felivaru in 1977, as a joint venture with a Japanese firm. In 1979, a Fisheries Advisory Board was set up with the mandate of advising the government on policy guidelines for the overall development of the fisheries sector. Manpower development programmes began in the early 1980s, and fisheries education was incorporated into the school curriculum."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:text="Known for more details of Maldive, click''Click Me''"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+            <Button
+                android:id="@+id/goweb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#575757"
+                android:text="Click Me!"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:onClick="open"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

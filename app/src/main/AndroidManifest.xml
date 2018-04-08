@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.khokan.user.now">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.khokan.user.now.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.Bangladesh"
+            android:label="Bangladesh">
+            <intent-filter>
+                <action android:name="Bangladesh" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.India"
+            android:label="India">
+            <intent-filter>
+                <action android:name="India" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.Nepal"
+            android:label="Nepal">
+            <intent-filter>
+                <action android:name="Nepal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.Pakistan"
+            android:label="Pakistan">
+            <intent-filter>
+                <action android:name="Pakistan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.Maldives"
+            android:label="Maldive">
+            <intent-filter>
+                <action android:name="Maldive" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.Sri_Lanka"
+            android:label="Sri Lanka">
+            <intent-filter>
+                <action android:name="Sri_Lanka" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.Bhutan"
+            android:label="Bhutan">
+            <intent-filter>
+                <action android:name="Bhutan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.khokan.user.now.Afghanistan"
+            android:label="Afghanistan">
+            <intent-filter>
+                <action android:name="Afghanistan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

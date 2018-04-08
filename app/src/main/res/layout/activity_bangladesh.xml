@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ban_3"
+    tools:context="com.khokan.user.now.Bangladesh">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/ban_2"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:text="Officially name of this country is People's Republic of Bangladesh.\nBangladesh is a country in South Asia.\nMore than 98 percent of Bangladeshi Bengalis speak Bangla as their native language.Bangla is the official language, but English is sometimes used secondarily for official purposes.\nIslam is Bangladesh's largest religion, followed by 90 percent of the population.Hinduism is followed by 9.5 percent of the population ethnic minority groups.\nThe Bangladesh Council of Scientific and Industrial Research, founded the Laboratories in Dhaka (1955), Rajshahi (1965) and Chittagong (1967). Bangladesh's space agency, SPARRSO, was founded in 1983 with assistance from the United States.Bangladesh to launch the Bangabandhu-1 communications satellite in 2018.The Bangladesh Atomic Energy Commission operates a TRIGA research reactor at its atomic-energy facility in Savar.In 2015, Bangladesh was ranked the 26th global IT outsourcing destination."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text2"
+                android:text="Known for more details of Bangladesh, click''Click Me''"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+            <Button
+                android:id="@+id/goweb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#575757"
+                android:text="Click Me!"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:onClick="open"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
